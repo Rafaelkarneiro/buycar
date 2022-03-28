@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.consulta{
+    color: white;
+    margin-top: 30px;
+}
+
+
+.hero{background-image: url(../IMAGENS/garagem06.jpg); 
+    background-size: cover; 
+    min-height: 100vh; 
+    color: rgb(255, 255, 255);
+    
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+.hero h1{
+
+    font-size: 60px; margin-bottom: 70px;
+    
+    text-shadow: 5px 5px rgb(0, 0, 0);
+    transition: 9s;
+}
+
+
+
+input{
+    display: block;
+    height: 45px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(141, 29, 107, 0.09);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input[type=email]{
+    display: block;
+    height: 45px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(141, 29, 107, 0.09);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input[type=email]:hover{
+    border: darkcyan 2px solid;
+}
+
+.box input[type=password]{
+    display: block;
+    height: 45px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(141, 29, 107, 0.09);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input[type=password]:hover{
+    border: darkcyan 2px solid;
+}
+
+.box input[type=text]{
+    display: block;
+    height: 45px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(141, 29, 107, 0.09);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input[type=text]:hover{
+    border: darkcyan 2px solid;
+}
+
+.box input[type=time]{
+    display: block;
+    height: 45px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(141, 29, 107, 0.09);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input[type=time]:hover{
+    border: darkcyan 2px solid;
+}
+
+
+.box input[type=number]{
+    display: block;
+    height: 45px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(141, 29, 107, 0.09);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input[type=number]:hover{
+    border: darkcyan 2px solid;
+}
+
+.box input[type=date]{
+    display: block;
+    height: 45px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: rgba(141, 29, 107, 0.09);
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box input[type=date]:hover{
+    border: darkcyan 2px solid;
+}
+
+
+.box input[type=submit]{
+    
+    border: 0;
+    background: grey;
+    display:block;
+    margin:24px auto;
+    text-align: center;
+    color:white;
+    
+    padding:14px 40px;
+    
+    width: 200px;
+    outline: none;
+    justify-content: center;
+    font-size:14px;
+    border-radius: 30px;
+    cursor: pointer;   
+}
+
+.box input[type=submit]:hover{
+    background:white;
+    width:210px;
+    color:black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.box h1{
+    color:white;
+    text-transform: uppercase ;
+    font-weight: 300;
+    font-size: 30px;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box{ 
+    width:360px; 
+    padding: 10px;
+    position: absolute;
+    top:45%;
+    left:45%;
+    transform: translate(-35%,-35%);
+    opacity: 0.8;
+    
+    background-color: black;
+    text-align: center;
+    border-radius: 23px;
+    border-color: #3b3a3a;
+}
+
+div#corpo-form{
+    /*background-color: rebeccapurple;*/
+    width: 420px;
+    margin: 150px auto 0px auto;
+    padding: 20px;
+}
+div#corpo-form h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+
+
+
+/*Código para alterar a cor do place-holders de entrada de dados*/
+
+/*SCROLLBAR NOVO*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border: 5px solid black;
+    /*background:#6495ED;*/
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent, rgb(0, 0, 0));
+    border-radius: 500px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,rgb(255, 255, 255)/*#00c6ff*/ );
+}
+
+/*TROQUEI O SCROLLBAR */
+
+/*::-webkit-input-placeholder { /* Chrome/Opera/Safari 
+    color: white;
+}
+::-moz-placeholder { /* Firefox 19+ 
+    color:  white;
+}
+:-ms-input-placeholder { /* IE 10+ 
+    color:  white;
+}
+:-moz-placeholder { /* Firefox 18- 
+    color:  white;
+}
+/*Código para alterar a cor do place-holders de entrada de dados*/ 
+
+.box div .msg-sucesso{
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(32, 168, 14,0.6);
+    border: 1px solid rgba(17, 17, 17, 0.6);
+}
+
+.box div.msg-erro{
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(245, 4, 4,0.6);
+    border: 1px solid rgba(17, 17, 17, 0.6);
+    
+}
+
+
+
+
+footer {
+    
+    display:flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 50px 0;
+    align-items: center;
+    
+}
+
+footer ul{
+
+    display:flex;
+    margin-bottom: 29px;
+}
+
+footer ul li {margin-right: 25px; }
+footer ul li:last-child{margin-right: 0;}
+footer ul li a {color: #eef1f1; font-size: 30px;}
+footer p{color:#f9fcfc; font-family: 'Montserrat', sans-serif;}
+
+
+
+header {
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    position: absolute; top: 0; left: 0; display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    text-transform: uppercase;
+
+}
+
+header img {
+    width: 35px;
+}
+
+header nav{display:flex;}
+
+header li a {color: #ffffff;}
+
+header li a:hover{ 
+    background: white;
+    padding: 10px;
+    color:black;
+    transition: 0.3s;
+}
+
+header li {margin: 0px 18px; padding-left: 3px;}
+@media(max-width: 700px){
+    header {flex-direction: column;}
+    header img{margin-bottom: 15px;}
+}
+.cabecalho form{width:30%; float:right; }
+.cabecalho input[type="text"] {width: 80%; float:left; padding: 12px 12px; font-family: Arial; border-radius: 2px ; border-style: groove;}
+/*.cabecalho button {width: 15%; float: right; padding: 2px;}*/
+
+.box a{
+
+    text-decoration: underline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

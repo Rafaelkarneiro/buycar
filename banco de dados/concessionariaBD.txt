@@ -1,0 +1,50 @@
+create database Concessionaria;
+
+use Concessionaria;
+
+create table veiculos(
+	codVeiculo varchar(5) NOT NULL PRIMARY KEY,
+	marca varchar(25),
+	modelo varchar(14),
+	cor varchar(50),
+	qtdEstoque int,
+  	preco double
+);
+
+create table funcionarios(
+	idUsuario int AUTO_INCREMENT PRIMARY KEY,
+	nomeUsuario varchar(15),
+	nome varchar(50),
+	cargo varchar(25),
+	senha varchar(25)
+);
+
+create table clientes(
+	cpf varchar(11) PRIMARY KEY,
+	nome varchar(50),
+	email varchar(50),
+	cel varchar(20),
+	tel varchar(20)
+);
+
+create table venda(
+	nomeFunc varchar(50),
+	cpfCliente varchar(11),
+    	marca varchar(15),
+	codVeiculo varchar(5),
+	dataVenda date,
+	modoPagamento varchar(15),
+	qtdParcelas int,
+    	valorTotal double
+);
+
+create table visita(	
+	
+	idVisita int AUTO_INCREMENT PRIMARY KEY,
+	nomeFunc varchar(50),
+	nomeCliente varchar(50),
+    	dataVisita date,
+	horaVisita time
+);
+
+
